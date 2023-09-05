@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "paul1124.github.io/health-tracker",
+  "homepage": "https://paul1124.github.io/health-tracker",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
