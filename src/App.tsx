@@ -32,7 +32,7 @@ function App() {
             ))}
             <span style={{ display:'block', marginBottom: '8px' }}></span>
             {displayComponents.map(name => (
-                CommonBlockFramework.componentNames.get(name) && createElement(CommonBlockFramework.componentNames.get(name))
+                CommonBlockFramework.componentNames.get(name) && createElement(CommonBlockFramework.componentNames.get(name) as any)
             ))}
         </>
     )
