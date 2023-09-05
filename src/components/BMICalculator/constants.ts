@@ -1,0 +1,1 @@
+export const COMPONENT_NAME_BMI_CALCULATOR = 'BMICalculator';
